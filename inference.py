@@ -15,8 +15,8 @@ import flash_attn
 device = torch.device("cuda")
 
 # Define model paths
-llama_model_path = r"c:\Users\artno\.cache\huggingface\hub\models--meta-llama--Meta-Llama-3.1-8B-Instruct\snapshots\5206a32e0bd3067aef1ce90f5528ade7d866253f"
-hermes_model_path = r"C:\Users\artno\.cache\huggingface\hub\models--NousResearch--Hermes-3-Llama-3.1-8B\snapshots\aabb745a717e133b74dcae23195d2635cf5f38cc"
+llama_model_path = "meta-llama/Meta-Llama-3.1-8B-Instruct"
+hermes_model_path = "NousResearch/Hermes-3-Llama-3.1-8B"
 new_model_path = "New_model"
 
 # Define the quantization config
