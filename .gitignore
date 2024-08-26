@@ -1,0 +1,4 @@
+.aider*
+/model_diff
+*.pt
+*.safetensors
